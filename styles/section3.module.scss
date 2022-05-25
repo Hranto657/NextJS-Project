@@ -1,0 +1,163 @@
+.container {
+  width: 100%;
+  height: 993px;
+  margin-top: 140px;
+}
+.mainblock {
+  width: 1570px;
+  height: 993px;
+  margin: 0 auto;
+}
+.block_header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  h1 {
+    margin-left: 4px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 75px;
+    color: #ffffff;
+  }
+  .image_icon {
+    width: 34px;
+    height: 67px;
+    position: relative;
+  }
+}
+.block_text {
+  width: 100%;
+  margin-top: 18px;
+  padding-left: 30px;
+}
+.imageblock {
+  width: 31px;
+  height: 16px;
+  margin-top: 12px;
+  margin-left: 30px;
+  position: relative;
+}
+.block {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  h1 {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #ffffff;
+  }
+}
+.block_about {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 16px;
+  p {
+    margin-left: 14px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #a7a7a7;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .mainblock {
+    width: 1120px;
+  }
+  .block_header {
+    h1 {
+      font-size: 40px;
+      line-height: 60px;
+    }
+    .image_icon {
+      width: 25px;
+      height: 50px;
+    }
+  }
+  .block {
+    h1 {
+      font-size: 30px;
+      line-height: 40px;
+    }
+  }
+  .block_about {
+    p {
+      font-size: 20px;
+      line-height: 30px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    margin-top: 0px;
+  }
+  .mainblock {
+    width: 630px;
+    height: 800px;
+  }
+  .block_header {
+    margin-top: 90px;
+    h1 {
+      font-size: 32px;
+      line-height: 48px;
+    }
+    .image_icon {
+      width: 18px;
+      height: 36px;
+    }
+  }
+  .block {
+    h1 {
+      font-size: 24px;
+      line-height: 24px;
+    }
+  }
+  .block_about {
+    p {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+  .imageblock {
+    margin-top: 4px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .mainblock {
+    width: 311px;
+    height: 1032px;
+  }
+  .block_header {
+    margin-top: 190px;
+    h1 {
+      font-size: 24px;
+      line-height: 24px;
+    }
+    .image_icon {
+      width: 12px;
+      height: 24px;
+    }
+  }
+  .block {
+    margin-top: 32px;
+    h1 {
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+  .block_text {
+    padding-left: 0px;
+  }
+  .imageblock {
+    margin-left: 0px;
+  }
+}
